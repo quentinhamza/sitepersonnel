@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+p{
+    font-size: 18px;
+}
+#main-menu {
+    background-color: black;
+    padding: 2px 0px ;
+    transition: 1s;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    transition: 1s;
+    right: 0;
+}
+#main-menu.menu-scroll{
+    background-color: black;
+    padding: 10px;
+    transition: 1s;
+    box-shadow: black;
+  }
+a{
+    color: white;
+}
+#main-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+#main-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+video{
+margin-left: 10%;
+}
+.input{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+#intro{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    padding-bottom: 25px;
+}
+#interimaire, #employe{
+    padding-left: 10%;
+}
+#interimaire{
+    padding-top: 10px;
+}
+#jps{
+    padding-left: 10%;
+}
+#MDS{
+    padding-left: 10%;
+}
+
+.date{
+    padding-left: 10%;
+}
+.titre{
+    padding-left: 10%;
+}
+#interim{
+    padding-left: 10%;
+    margin-right: 35%;
+    padding-bottom: 10px;
+}
+#BPI{
+    padding-left: 10%;
+    margin-right: 5%;
+}
+
+#competences{
+    text-align: center;
+}
+#voici{
+    text-align: center;
+    padding-top: 10px;
+}
+.cadre-diapo{
+    max-width:800px;
+    min-height: 400px;
+    max-height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.diapo {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    top: 50%;
+    transition: opacity 1s;
+    width: 100%;
+    max-width: 600px;
+}
+button{
+    border: none;
+    cursor: pointer
+}
+.precedent,
+.suivant{
+    color: white;
+    transition: color .4s linear;
+    transform: translatey(-50%);
+    top: 50%;
+    padding: .5rem;
+    font-size: 2rem;
+    background: black;
+    position: absolute
+}
+
+.precedent{left:0}
+.suivant{right:0}
+
+.precedent:hover,
+.suivant:hover{
+    color: white
+}
+
+.numeros{
+    transition: background .4s linear;
+    color: black;
+    background: white
+}
+
+.cadre-demo{
+    display: flex;
+    justify-content: center;
+}
+#vous{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.illustrated-content {
+    display: flex;
+  }
+  
+  .illustrated-content.regular {
+    flex-direction: row;
+  }
+  
+  .illustrated-content.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .illustrated-content .txt-content {
+    width: 50%;
+    padding: 2em;
+    text-align: center;
+    padding-top: 120px;
+  }
+  
+  .illustrated-content img {
+    width: 50%;
+  }
+
+  #contact-logo{
+      text-align: center;
+    }
+  #contact-logo img{
+      height: 70px;
+  }
+  #fin{
+      text-align: center;
+      padding-top: 10px;
+  }
+  
+  #Juliette{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+  }
+  .title{
+      text-align: center;
+  }
+  #img-ju{
+    height: 550px;
+    width: 600px;
+  }
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+form{
+    text-align: center;
+}
+#toutes{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#Projets p{
+    text-align: center;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
